@@ -1,0 +1,8 @@
+[package]
+authors = ["Iegor <iegor@freedomfi.com>"]
+build = "build.rs"
+name = "tss2"
+version = "0.1.0"
+
+[build-dependencies]
+bindgen = "*"
