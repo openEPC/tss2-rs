@@ -6,3 +6,9 @@ version = "0.1.0"
 
 [build-dependencies]
 bindgen = "*"
+
+[features]
+sys = []
+esys =[]
+fapi = []
+default = ["sys", "esys", "fapi"]
