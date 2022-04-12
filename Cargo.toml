@@ -2,10 +2,14 @@
 authors = ["Iegor <iegor@freedomfi.com>"]
 build = "build.rs"
 name = "tss2"
-version = "0.1.0"
+version = "0.1.1"
+description = "Rust wrapper for tpm2-tss"
+readme = "README.md"
+repository = "https://github.com/openEPC/tss2-rs"
+license = "Apache-2.0"
 
 [build-dependencies]
-bindgen = "*"
+bindgen = "0"
 
 [features]
 sys = []
