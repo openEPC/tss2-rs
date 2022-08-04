@@ -13,7 +13,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-tss2-rs = "0"
+tss2-rs = "0.1"
 ```
 
 Import necessary types and functions and use as you would do with tpm2-tss.
