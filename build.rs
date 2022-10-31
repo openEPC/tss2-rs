@@ -22,6 +22,7 @@ fn main() {
     println!("cargo:rerun-if-changed=wrapper.h");
 
     let mut builder = bindgen::Builder::default()
+        .size_t_is_usize(false)
         .header("wrapper.h");
     #[cfg(feature = "sys")]
     add_header!(builder, "sys.h");
